@@ -1,0 +1,41 @@
+div{
+   height: 200px;
+   width: 200px;
+   background-color: blue;
+   color: white;
+   text-align: center;
+}
+
+
+/*the color will be brown to 0 to 300*/
+
+@media (max-width : 300px){
+   div{
+      background-color: rgb(218, 54, 54);
+   }
+}
+
+/*the color will be pink to 300 to 400*/
+
+@media (min-width : 300px) and (max-width : 400px){
+   div{
+      background-color: pink;
+   }
+}
+
+/*the color will be pink to 400 to 600*/
+
+@media (min-width : 400px) and (max-width : 600px){
+   div{
+      background-color: red;
+   }
+}
+
+/*the color will be blue for above 600*/
+
+
+@media (min-width : 600px){
+   div{
+      background-color: blue;
+   }
+}

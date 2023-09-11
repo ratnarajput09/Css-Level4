@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width:  100px;
+    background-color: pink;
+}
+
+/*media tag will here used so when your brower-poag width will be 700 the box color will change into powderblue from pink.*/
+
+@media (width : 700px) {
+    div{
+        background-color: powderblue;
+    }
+}
+
+/*when you want to specify changes more than one*/
+
+@media (min-width : 200px) and (max-width : 500px) {
+    div{
+    background-color: green;
+    }
+}

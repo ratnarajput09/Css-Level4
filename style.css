@@ -1,0 +1,56 @@
+/* css for flex box */
+body{
+    text-align: center;
+    background-color: azure;
+    color: black;
+}
+
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid brown;
+
+}
+#container{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start;  */
+    /* you can control space by justify-content tag */
+     align-items: flex-start; 
+    /* it's change the direction of the box */
+}
+
+#box1{
+    background-color: aqua;
+    flex-grow: 2; 
+    
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;
+    /* align-self: flex-end; */
+    flex-grow: 1;  
+}
+
+#box3{
+    background-color: darkgoldenrod;
+    height: 75px;
+    
+}
+  
+#box4{
+    background-color: indigo;
+
+}
+
+#box5{
+    background-color: aquamarine;
+    /* align-self: flex-end; */
+
+}
